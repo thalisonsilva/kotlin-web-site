@@ -23,7 +23,7 @@ object BuildSitePages : BuildType({
     artifactRules = """
         dist/** => pages.zip
         robots.txt => pages.zip
-        """.trimIndent()
+    """.trimIndent()
 
     vcs {
         root(vcsRoots.KotlinLangOrg)
@@ -89,7 +89,7 @@ object BuildSitePages : BuildType({
                 #!/bin/bash
                 pip install -r requirements.txt
                 python kotlin-website.py sitemap
-                """.trimIndent()
+            """.trimIndent()
 
             dockerImage = "%dep.Kotlin_KotlinSites_Builds_KotlinlangOrg_BuildPythonContainer.kotlin-website-image%"
             dockerImagePlatform = ScriptBuildStep.ImagePlatform.Linux
@@ -107,7 +107,7 @@ object BuildSitePages : BuildType({
                 fi
                 
                 echo " ##teamcity[buildStatus text='{build.status.text} ${'$'}{url}'] "
-                """.trimIndent()
+            """.trimIndent()
         }
     }
 
