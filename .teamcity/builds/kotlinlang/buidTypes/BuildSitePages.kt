@@ -190,15 +190,12 @@ object BuildSitePages : BuildType({
                 artifactRules = "+:pages.zip!** => libs/kotlinx-metadata-jvm/"
             }
         }
+
         dependency(BuildStdlibApiReference) {
-            /* snapshot {
-                reuseBuilds = ReuseBuilds.SUCCESSFUL
-                onDependencyFailure = FailureAction.FAIL_TO_START
-            } */
             artifacts {
-                buildRule = lastSuccessful("rr/chernenko/docs-18")
-                cleanDestination = true
+                buildRule = lastSuccessful(branch = "+:<default>")
                 artifactRules = "+:latest-version.zip!all-libs/** => api/core"
+                cleanDestination = true
             }
         }
     }
