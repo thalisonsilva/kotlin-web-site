@@ -193,7 +193,7 @@ object BuildSitePages : BuildType({
 
         dependency(BuildStdlibApiReference) {
             artifacts {
-                buildRule = lastSuccessful(branch = "+:<default>")
+                buildRule = lastSuccessful(branch = "+:ktl-696-dokka-stdlib")
                 artifactRules = "+:latest-version.zip!all-libs/** => api/core"
                 cleanDestination = true
             }
