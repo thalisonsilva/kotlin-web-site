@@ -55,7 +55,13 @@ object BuildSitePages : BuildType({
                 
                 yarn install --frozen-lockfile
                 
+                ls -la .
+                ls -la api
+
                 python kotlin-website.py build
+
+                ls -la .
+                ls -la api
             """.trimIndent()
 
             dockerImage = "%dep.Kotlin_KotlinSites_Builds_KotlinlangOrg_BuildPythonContainer.kotlin-website-image%"
