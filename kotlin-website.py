@@ -543,9 +543,6 @@ if __name__ == '__main__':
 
     set_replace_simple_code(build_contenteditable)
 
-    with (open(path.join(root_folder, "_nav-mapped.yml"), 'w')) as output:
-        yaml.dump(get_nav_impl(), output)
-
     if len(argv_copy) > 1:
         if argv_copy[1] == "build":
             build_mode = True

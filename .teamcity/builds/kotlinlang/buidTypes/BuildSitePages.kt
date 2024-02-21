@@ -59,7 +59,7 @@ object BuildSitePages : BuildType({
 
                 ls -la .
                 ls -la api
-                ls -la build
+                ls -la build/api
             """.trimIndent()
 
             dockerImage = "%dep.Kotlin_KotlinSites_Builds_KotlinlangOrg_BuildPythonContainer.kotlin-website-image%"
