@@ -7,6 +7,7 @@ object TestsProject : Project({
   name = "Site Tests"
 
   buildType(tests.buildTypes.E2ETests)
+  buildType(tests.buildTypes.E2ETestsViaCompose)
   buildType(tests.buildTypes.E2EProductionTest)
   buildType(tests.buildTypes.ApiReferencesTemplateTest)
 })
