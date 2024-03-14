@@ -16,21 +16,37 @@ Download and install one of these IDEs to start using Kotlin.
  
 <tabs>
 
+<tab id="console" title="Console app">
+
+Here you'll learn how to develop a console application and create unit tests with Kotlin.
+
+1. **[Create a basic JVM application with the IntelliJ IDEA project wizard](jvm-get-started.md).**
+
+2. **Learn more about Kotlin:**
+   * [How to write your first unit test](jvm-test-using-junit.md).
+
+3. **Join the Kotlin community:**
+   * ![Slack](slack.svg){width=25}{type="joined"} Slack: [get an invite](https://surveys.jetbrains.com/s3/kotlin-slack-sign-up).
+   * ![StackOverflow](stackoverflow.svg){width=25}{type="joined"} StackOverflow: subscribe to the ["kotlin"](https://stackoverflow.com/questions/tagged/kotlin) tag.
+
+4. **Follow Kotlin** on:
+   * ![Twitter](twitter.svg){width=18}{type="joined"} [Twitter](https://twitter.com/kotlin)
+   * ![Reddit](reddit.svg){width=25}{type="joined"} [Reddit](https://www.reddit.com/r/Kotlin/)
+   * ![YouTube](youtube.svg){width=25}{type="joined"} [Youtube](https://www.youtube.com/channel/UCP7uiEZIqci43m22KDl0sNw)
+
+If you encounter any difficulties or problems, report an issue in our [issue tracker](https://youtrack.jetbrains.com/issues/KT).
+
+</tab>
+
 <tab id="backend" title="Backend app">
 
-Here is how you can take the first steps in developing Kotlin server-side applications.
+Here you'll learn how to develop a backend application with Kotlin server-side.
 
 1. **Create your first backend application:**
-   
-   To start from scratch, [create a basic JVM application with the IntelliJ IDEA project wizard](jvm-get-started.md).  
-
-   If you prefer more robust examples:
-   
      * [Create a RESTful web service with Spring Boot](jvm-get-started-spring-boot.md).
      * [Create HTTP APIs with Ktor](https://ktor.io/docs/creating-http-apis.html).
 
 2. **Learn more about Kotlin for server-side:**
-   * [How to write your first unit test](jvm-test-using-junit.md).
    * [How to mix Kotlin and Java code in your application](mixing-java-kotlin-intellij.md).
 
 3. **Join the Kotlin server-side community:**
