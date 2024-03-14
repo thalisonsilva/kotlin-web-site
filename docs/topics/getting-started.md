@@ -58,26 +58,11 @@ Here you'll learn how to develop and improve your cross-platform application usi
    * If you have an existing Android application and want to make it cross-platform, complete the [Make your Android application work on iOS](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-integrate-in-existing-app.html) tutorial.
    * If you prefer real-life examples, clone and play with an existing project, for example the networking and data storage project from the [Create a multiplatform app using Ktor and SQLdelight](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-ktor-sqldelight.html) tutorial or any [sample project](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-samples.html).
 
-3. **Use a wide set of multiplatform libraries** to implement the required business logic only once in the shared module. Learn more about [adding dependencies](multiplatform-add-dependencies.md).
-
-   |Library| Details                                                                                                                                                            |
-   |-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-   | Ktor | [Docs](https://ktor.io/docs/client.html)                                                                                                                           | 
-   | Serialization | [Docs](serialization.md) and [sample](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-ktor-sqldelight.html#create-an-application-data-model) |
-   | Coroutines | [Docs](coroutines-guide.md) and [sample](coroutines-and-channels.md)                                                                                               |
-   | DateTime | [Docs](https://github.com/Kotlin/kotlinx-datetime#readme)                                                                                                          |
-   | SQLDelight | Third-party library. [Docs](https://cashapp.github.io/sqldelight/)                                                                                                 |
-   
-   > You can also find a multiplatform library in the [community-driven list](https://libs.kmp.icerock.dev/).
-   > 
-   {type="tip"}
-
 4. **Learn more about Kotlin Multiplatform:**
    * Learn more about [Kotlin Multiplatform](multiplatform-get-started.md).
    * Look through [samples projects](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-samples.html).
    * [Publish a multiplatform library](multiplatform-publish-lib.md).
-   * Learn how Kotlin Multiplatform is used at [Netflix](https://netflixtechblog.com/netflix-android-and-ios-studio-apps-kotlin-multiplatform-d6d4d8d25d23), [VMware](https://kotlinlang.org/lp/multiplatform/case-studies/vmware/), [Yandex](https://kotlinlang.org/lp/multiplatform/case-studies/yandex/), and [many other companies](https://kotlinlang.org/lp/multiplatform/case-studies/).
-
+   
 5. **Join the Kotlin Multiplatform community:**
 
    * ![Slack](slack.svg){width=25}{type="joined"} Slack: [get an invite](https://surveys.jetbrains.com/s3/kotlin-slack-sign-up) and join the [#getting-started](https://kotlinlang.slack.com/archives/C0B8MA7FA) and [#multiplatform](https://kotlinlang.slack.com/archives/C3PQML5NU) channels.
